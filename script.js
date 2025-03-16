@@ -2,8 +2,8 @@ const convertButton = document.querySelector("#convertButton");
 
 convertButton.addEventListener("click", function () {
   const unitInput = document.querySelector("#unitInput").value;
-  const unitFrom = document.querySelector("#unitFrom").value;
-  const unitTo = document.querySelector("#unitTo").value;
+  // /const unitFrom = document.querySelector("#unitFrom").value;
+  // const unitTo = document.querySelector("#unitTo").value;*/
   const unitRadio = document.querySelector("#Radio").value;
 
   // Fylll inn og logg alle variabler for å se om vi henter riktig før vi går videre i koden
@@ -12,8 +12,8 @@ convertButton.addEventListener("click", function () {
     convertButton,
     unitInput,
     unitFrom,
-    unitTo
-    RadioNodeList
+    unitTo,
+    unitRadio
   );
 
   if (unitFrom === "MM" && unitTo === "CM") {
